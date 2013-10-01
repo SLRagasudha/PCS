@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>Welcome to PCS</title>
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1><span>Predictable</span>ConvergentSolutions</h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="Registration.jsp">Registration</a></li>
+			<li><a href="Login.html">Login</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+	</div>
+	
+</div>
+<!-- end header -->
+
+	<!-- start page -->
+	<div id="page">
+		<div id="sidebar1" class="sidebar">
+			<ul>
+				<li>
+					<h2>Categories</h2>
+				</li>
+				<li>
+					<h2>Recently Viewed Videos</h2>
+				</li>
+                                <li>
+                                    <h2>
+                                        <form>
+                                            <input type="button" value="like"></input>
+                                        </form>
+                                    </h2>
+                                </li>
+                                <li>
+                                    <h2>
+                                        <form>
+                                            <input type="button" value="dislike"></input>
+                                        </form>
+                                    </h2>
+                                </li>
+			</ul>
+		</div>
+		<!-- start content -->
+		<div id="content">
+			<div class="padding1">
+                            <h1>MP4 Format video</h1>
+                            <video width="320" height="240" controls>
+                            <source src="images/Cognizant.mp4" type="video/mp4"></video><br><br>
+                             <form action="./addvalues" method="post" enctype="multipart/form-data" name="productForm" id="productForm"><br><br>
+                                name: <INPUT type="text" name="name"/><br/>
+                                description: <input  type="text" name="des"/><br/>
+                              Select file: <input type="file" name="file"/>
+                                <input type="submit" value="Upload">   
+                            </form>
+                            <h1>Webm Format video</h1>
+                            <video width="320" height="240" controls>
+                            <source src="images/UMLHD 720p.webmhd.webm" type="video/webm"></video><br><br>
+                            
+			  </div>
+                            <div class="post">
+				<h1 class="title">Welcome to Our Website!</h1>
+				<div class="entry">
+					<p>This Website provides you video based training on the technologies required to do any project.</p>
+				</div>
+                            </div>
+			
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<div id="sidebar2" class="sidebar">
+			<ul>
+				<li>
+					<form id="searchform" method="post" action="./Search2">
+						<div>
+							<h2>Search Video</h2>
+							<input type="text" name="search" id="search" size="15" value="" />
+                                                        <input type="submit" value="Search"></td>&nbsp;<br><br>
+                                                        
+						</div>
+					</form>
+				</li>
+			</ul>
+		</div>
+		<!-- end sidebars -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end page -->
+
+<div id="footer">
+	<p class="copyright">&copy;&nbsp;&nbsp;2013 All Rights Reserved &nbsp;&bull;&nbsp; Design by MSIT JNTU</p>
+</div>
+<div align=center></div></body>
+</html>
